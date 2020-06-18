@@ -31,7 +31,7 @@ func (s *Service) Start() {
 }
 
 func (s *Service) saverToDbService() {
-	const numberOfMessages = 100
+	const numberOfMessages = 1
 	cash := make([]CommonMessage, 0, numberOfMessages)
 	for {
 		for i := 0; i < numberOfMessages; i++ {

@@ -5,9 +5,9 @@ type IdJSON struct {
 }
 
 const (
-	Text           = "text"
-	Media          = "media"
-	QueryUsersList = "users_list"
+	Text                = "text"
+	Media               = "media"
+	QueryUsersList      = "users_list"
 )
 
 type Message struct {
