@@ -38,7 +38,6 @@ func (s *Service) saverToDbService() {
 			message := <-s.saverCh
 			cash = append(cash, message)
 		}
-
 		s.dbSvcConnector.Send(cash)
 
 		cash = cash[:0]
